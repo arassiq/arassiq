@@ -28,6 +28,20 @@ Apple-Silicon-specific inference work.
 A real-time AI-assisted mediation application with role-aware conversations,
 WebSocket communication, and a Python service layer.
 
+## Collaborative builds
+
+### [BitRich](https://github.com/derekalia/BitRich)
+
+Contributed to a multi-agent computer-use system that decomposes goals,
+interprets screenshots with OmniParser, generates actions, and verifies whether
+each step succeeded.
+
+### [SleepyScholar](https://github.com/kevin51jiang/sleepyscholar)
+
+Contributed to a full-stack scholarship matching platform using language models,
+a FastAPI backend, and a React frontend to match applicants and assist with
+personalized essays.
+
 ## What I’m exploring
 
 - Full-parameter fine-tuning, LoRA, and preference optimization
