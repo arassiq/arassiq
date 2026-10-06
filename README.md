@@ -1,57 +1,104 @@
 # Aaron Rassiq
 
-I’m building toward machine learning engineering roles by developing local AI
-systems from the model layer outward: data pipelines, fine-tuning, evaluation,
-retrieval, inference, and the applications that sit on top of them.
+**AI / ML engineer · Berkeley, CA**
 
-Right now, I’m focused on a reproducible post-training laboratory for adapting
-small code models on Apple Silicon. The goal is to measure what actually
-improves functional correctness—not just what lowers training loss.
+I build intelligent systems that hold up outside the demo: production RAG,
+agentic workflows, computer vision, and the data infrastructure beneath them.
+My work spans model training and evaluation, retrieval, cloud systems, and the
+products people ultimately use.
+
+Currently building enterprise AI systems at **Alation** and completing a
+**Master of Information and Data Science at UC Berkeley**.
+
+[Portfolio](https://aaronrassiq.com/) ·
+[LinkedIn](https://www.linkedin.com/in/aaronrassiq/) ·
+[Email](mailto:aaronrassiq@berkeley.edu)
+
+## Experience
+
+### Alation — Data & AI Engineering Intern
+
+**2026–present**
+
+Production RAG and multi-agent systems on AWS Bedrock. Retrieval pipelines
+across Salesforce, Snowflake, Slack, PostgreSQL, and FAISS. Tools supporting
+more than 150 users.
+
+### Mefferdi — Machine Learning / Cloud Engineer
+
+**2025–2026**
+
+Architected an AWS data lakehouse across S3 and Glue for evolving telemetry
+schemas, then built batch simulation pipelines to surface perception-system
+failure modes before deployment.
+
+### uGRIDD — Machine Learning Engineer
+
+**2024–2026**
+
+Trained YOLO and SAM detection and segmentation systems for road
+infrastructure. Improved precision and mAP by 22% through dataset balancing,
+feature engineering, and evaluation against real-world edge cases.
+
+### University of San Francisco — Applied ML Researcher
+
+**2024–2025**
+
+Built multimodal and geospatial prototypes, achieving approximately 90%
+vegetation-loss detection accuracy and reducing segmentation latency by 40%.
 
 ## Selected work
 
 ### [Local Post-Training Lab](https://github.com/arassiq/local-post-training-lab)
 
-A local-first platform for full-parameter AdamW fine-tuning and execution-based
-evaluation of code models. It includes a custom supervised fine-tuning loop,
-dataset validation, MPS support, mutation-based repair tasks, checkpointing, and
-an executable `pass@1` evaluator.
+A reproducible lab for full-parameter supervised fine-tuning of code models on
+Apple Silicon, with executable repair tests designed to measure whether
+generated code actually works.
+
+`PyTorch` · `MPS` · `SFT` · `Execution evaluation`
+
+### [LIGO Parameter Inference](https://github.com/alilordifar/ligo-parameter-inference)
+
+Collaborative scientific ML research studying whether neural posterior
+estimation remains calibrated when gravitational-wave detector noise shifts
+from LIGO's O3a run to O4a.
+
+`PyTorch` · `Normalizing flows` · `Simulation-based inference` · `LIGO`
 
 ### [LocalDex](https://github.com/arassiq/LocalDex)
 
-Local retrieval infrastructure for private RAG workflows, including pluggable
-embedding models, semantic chunking experiments, vector indexing, and
-Apple-Silicon-specific inference work.
+A local-first vector indexing toolkit with pluggable embeddings, chunking
+strategies, and retrieval pipelines for private RAG workflows.
 
-### [LLMediator](https://github.com/arassiq/LLMediator)
+`Python` · `Embeddings` · `Vector search` · `RAG`
 
-A real-time AI-assisted mediation application with role-aware conversations,
-WebSocket communication, and a Python service layer.
+### [SOC2 Copilot](https://github.com/arassiq/SOC2-Copilot)
 
-## Collaborative builds
+A read-only AWS evidence collector and secure-code analysis workflow that turns
+deterministic cloud checks and Semgrep findings into reviewable compliance
+output.
 
-### [BitRich](https://github.com/derekalia/BitRich)
+`Python` · `AWS Bedrock` · `Strands` · `Semgrep`
 
-Contributed to a multi-agent computer-use system that decomposes goals,
-interprets screenshots with OmniParser, generates actions, and verifies whether
-each step succeeded.
+### [Watershed Transformation](https://github.com/arassiq/Watershed-Transformation)
 
-### [SleepyScholar](https://github.com/kevin51jiang/sleepyscholar)
+A computer-vision pipeline used to identify regional vegetation loss across
+more than 300 satellite images.
 
-Contributed to a full-stack scholarship matching platform using language models,
-a FastAPI backend, and a React frontend to match applicants and assist with
-personalized essays.
+`OpenCV` · `Python` · `Geospatial ML`
 
-## What I’m exploring
+## Technical focus
 
-- Full-parameter fine-tuning, LoRA, and preference optimization
-- Functional evaluation and reinforcement learning with verifiable rewards
-- Local inference and memory-aware training on Apple Silicon
-- Retrieval systems, embedding pipelines, and context selection
-- Reliable AI applications with measurable behavior
+- **Applied AI:** RAG, agents, tool calling, embeddings, model evaluation
+- **Machine learning:** PyTorch, OpenCV, Hugging Face, scikit-learn, computer vision
+- **Systems:** FastAPI, PostgreSQL, Snowflake, FAISS, batch and streaming pipelines
+- **Cloud:** AWS Bedrock, Fargate, S3, Glue, Lambda, SQS, SNS
+- **Languages:** Python, TypeScript, SQL, C++, JavaScript
 
-## Current direction
+## Education
 
-The next milestones for the post-training lab are a base-model benchmark, a
-verified mutation-generated dataset, a full AdamW fine-tuning run, and a
-base-versus-fine-tuned evaluation report.
+- **UC Berkeley** — Master of Information and Data Science, in progress
+- **University of San Francisco** — Analytics & Computer Science, GPA 3.81
+
+I’m open to AI and machine learning engineering roles where research judgment,
+production reliability, and end-to-end ownership all matter.
