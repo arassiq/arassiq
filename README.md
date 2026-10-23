@@ -65,12 +65,12 @@ from LIGO's O3a run to O4a.
 
 `PyTorch` · `Normalizing flows` · `Simulation-based inference` · `LIGO`
 
-### [LocalDex](https://github.com/arassiq/LocalDex)
+### [Awesome Harness](https://github.com/arassiq/awesome-harness-123)
 
-A local-first vector indexing toolkit with pluggable embeddings, chunking
-strategies, and retrieval pipelines for private RAG workflows.
+An eval-first, runtime-portable harness for reliable long-running coding
+agents, with observable context, compaction, tool routing, and durable state.
 
-`Python` · `Embeddings` · `Vector search` · `RAG`
+`Python` · `Agent evaluation` · `Context management` · `OpenCode`
 
 ### [SOC2 Copilot](https://github.com/arassiq/SOC2-Copilot)
 
